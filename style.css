@@ -53,13 +53,24 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: #6c63ff;
+  background-color: #ffffff;
+}
+
 .secondary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 20px 20px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.secondary-link:hover {
+  color: #ffffff;
+  background-color: #6c63ff;
 }
 
 .homepage-link {
@@ -86,4 +97,23 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .col-sm-6 {
+    display: block;
+    text-align: center;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  .mobile-image {
+    margin-top: 10px;
+  }
+
+  .weather-text {
+    margin-top: -50px;
+  }
 }
