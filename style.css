@@ -99,7 +99,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .col-sm-6 {
     display: block;
     text-align: center;
