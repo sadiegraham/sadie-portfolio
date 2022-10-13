@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -16,21 +17,29 @@ h3 {
 }
 
 h1 {
+  font-family: var(--font-family);
   font-size: 96px;
 }
 
 h2 {
+  font-family: var(--font-family);
   font-size: 48px;
 }
 
 h3 {
+  font-family: var(--font-family);
   font-size: 24px;
   opacity: 0.7;
 }
 
 p {
+  font-family: var(--font-family);
   font-size: 18px;
   line-height: 1.5;
+}
+
+ul {
+  font-family: var(--font-family);
 }
 
 .navigation-links {
@@ -44,6 +53,7 @@ p {
 }
 
 .primary-link {
+  font-family: var(--font-family);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -59,6 +69,7 @@ p {
 }
 
 .secondary-link {
+  font-family: var(--font-family);
   border-radius: 4px;
   padding: 20px 20px;
   text-decoration: none;
